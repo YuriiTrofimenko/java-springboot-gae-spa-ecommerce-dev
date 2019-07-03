@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-push to appengine</actionName>
+            <displayName>push to appengine</displayName>
+            <goals>
+                <goal>clean</goal>
+                <goal>appengine:deploy</goal>
+                
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-run appengine locally</actionName>
+            <displayName>run appengine locally</displayName>
+            <goals>
+                <goal>clean</goal>
+                <goal>appengine:run</goal>
+                
+            </goals>
+        </action>
+    </actions>
